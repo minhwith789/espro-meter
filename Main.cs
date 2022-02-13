@@ -470,15 +470,15 @@ namespace ConstructionApp
         private void createToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //OpenChildForm(new Views.Employees.Create());
-            TabPage tabPage = new TabPage();
-            tabPage.Text = $"{tabControl1.TabPages.Count}";
-            tabControl1.TabPages.Add(tabPage);
-            Form login = new Views.FormLogin();
-            login.Dock=DockStyle.Fill;
-            login.TopLevel = false;
-            tabPage.Controls.Add(login);
-            login.Show();
-            tabPage.Show();
+            //TabPage tabPage = new TabPage();
+            //tabPage.Text = $"{tabControl1.TabPages.Count}";
+            //tabControl1.TabPages.Add(tabPage);
+            //Form login = new Views.FormLogin();
+            //login.Dock=DockStyle.Fill;
+            //login.TopLevel = false;
+            //tabPage.Controls.Add(login);
+            //login.Show();
+            //tabPage.Show();
         }
 
         private void iconButton4_Click(object sender, EventArgs e)
