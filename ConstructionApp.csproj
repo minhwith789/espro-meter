@@ -156,6 +156,7 @@
     <Folder Include="Contants\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Boq\" />
     <Folder Include="Views\Items\" />
     <Folder Include="Views\Lists\" />
   </ItemGroup>
