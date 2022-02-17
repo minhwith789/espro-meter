@@ -91,6 +91,20 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="custom\ColorFullCombobox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="custom\DropdownMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="custom\MenuColorTable.cs" />
+    <Compile Include="custom\MenuRenderer.cs" />
+    <Compile Include="custom\MultiColumnCombobox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="custom\RoundTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="DAL\Configure.cs" />
     <Compile Include="DAL\Item.cs" />
     <Compile Include="Main.cs">
@@ -101,6 +115,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Boq\Create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Boq\Create.Designer.cs">
+      <DependentUpon>Create.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Employees\Create.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +138,18 @@
     </Compile>
     <Compile Include="Views\FormLogin.Designer.cs">
       <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Items\Create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Items\Create.Designer.cs">
+      <DependentUpon>Create.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Lists\Create.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Lists\Create.Designer.cs">
+      <DependentUpon>Create.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
@@ -156,9 +188,6 @@
     <Folder Include="Contants\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Boq\" />
-    <Folder Include="Views\Items\" />
-    <Folder Include="Views\Lists\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

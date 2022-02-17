@@ -299,7 +299,7 @@ namespace ConstructionApp
             DataGridViewComboBoxColumn combo = new DataGridViewComboBoxColumn();
             combo.FlatStyle = FlatStyle.Flat;
             combo.DisplayStyle = DataGridViewComboBoxDisplayStyle.ComboBox;
-            combo.DataSource = DAL.Item.getAllItems("");
+            //combo.DataSource = DAL.Item.getAllItems("");
             combo.DisplayMember = "ItemName";
             combo.ValueMember = "Id";
 

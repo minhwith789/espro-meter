@@ -32,7 +32,6 @@ D:\Desktop\ConstructionApp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\Desktop\ConstructionApp\bin\Debug\TMT.Controls.WinForms.pdb
 D:\Desktop\ConstructionApp\bin\Debug\TMT.Controls.WinForms.dll.config
 D:\Desktop\ConstructionApp\obj\Debug\ConstructionApp.Views.Employees.Create.resources
-D:\App\espro\espro-meter\obj\Debug\ConstructionApp.csproj.AssemblyReference.cache
 D:\App\espro\espro-meter\obj\Debug\ConstructionApp.csproj.SuggestedBindingRedirects.cache
 D:\App\espro\espro-meter\obj\Debug\ConstructionApp.Main.resources
 D:\App\espro\espro-meter\obj\Debug\ConstructionApp.Properties.Resources.resources
